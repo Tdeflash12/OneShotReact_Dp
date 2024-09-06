@@ -1,18 +1,9 @@
-import Button from "../../components/Button"
+import React from 'react'
 
-
-
-
-function Home(){
-    return(
-        <>
-        
-            <Button hehe="Register"/>
-            <Button hehe="Login"/>
-            <Button hehe="Logout"/>
-
-        </>
-    )
+const Home = () => {
+  return (
+    <div>Home</div>
+  )
 }
 
 export default Home
